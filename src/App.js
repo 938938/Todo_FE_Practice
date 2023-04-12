@@ -7,6 +7,11 @@ function App() {
         <input />
         <Button>추가</Button>
       </form>
+      <ul>
+        <li>할 일 1</li>
+        <li>할 일 2</li>
+        <li>할 일 3</li>
+      </ul>
     </Main>
   );
 }
@@ -18,6 +23,7 @@ const Main = styled.div`
   margin: 10px auto;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 `;
 
 const Button = styled.button`
