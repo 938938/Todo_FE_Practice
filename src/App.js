@@ -1,9 +1,10 @@
 import styled from 'styled-components';
+import Login from './components/Login';
 
 function App() {
   return (
     <Main>
-      <form>
+      {/* <form>
         <input />
         <Button>추가</Button>
       </form>
@@ -11,7 +12,8 @@ function App() {
         <li>할 일 1</li>
         <li>할 일 2</li>
         <li>할 일 3</li>
-      </ul>
+      </ul> */}
+      <Login />
     </Main>
   );
 }
@@ -19,13 +21,13 @@ function App() {
 export default App;
 
 const Main = styled.div`
-  width: 600px;
+  /* width: 600px;
   margin: 10px auto;
   display: flex;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: column; */
 `;
 
-const Button = styled.button`
-  margin: 0 10px;
-`;
+// const Button = styled.button`
+//   margin: 0 10px;
+// `;
